@@ -1,4 +1,6 @@
-i=0
-while True:
-    print(str(i)+' I print forever')
-    i = i + 1
+def say_hello(name='ThisIsADefaultName'):
+    print(f'Hello {name}!')
+
+say_hello()
+say_hello(name='Nam')
+say_hello(name='Bryan')
